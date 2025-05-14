@@ -25,6 +25,7 @@ const Home: NextPage = () => {
           </h1>
           <h2 className="text-center text-xl mb-4">Building the Future of Web3</h2>
           <p className="text-center text-lg">Get started by taking a look at your batch GitHub repository.</p>
+
           <p className="text-lg flex gap-2 justify-center">
             <span className="font-bold">Checked in builders count:</span>
             {isLoading ? (

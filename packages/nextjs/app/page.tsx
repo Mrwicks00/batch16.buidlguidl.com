@@ -17,7 +17,14 @@ const Home: NextPage = () => {
       <div className="flex items-center flex-col grow pt-10">
         <div className="px-5">
           <div className="relative w-32 h-32 mb-6 mx-auto">
-            <Image src="/batch-logo.png" alt="Batch 16 Logo" fill className="object-contain" priority />
+            <Image
+              src="/batch-logo.webp"
+              alt="Batch 16 Logo"
+              width={288}
+              height={288}
+              className="object-contain"
+              priority
+            />
           </div>
           <h1 className="text-center">
             <span className="block text-2xl mb-2">Welcome to</span>
